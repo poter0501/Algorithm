@@ -1,6 +1,6 @@
 import sys
 
-# sys.setrecursionlimit(10 ** 6)
+sys.setrecursionlimit(10 ** 6)
 n = int(sys.stdin.readline())
 in_out = [int(c) for c in sys.stdin.readline().rstrip()]
 edges = {}

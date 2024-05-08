@@ -2,7 +2,6 @@ from collections import deque
 
 def solution(s):
     answer = 0
-    # is_correct_parenthesis(s)
     for i in range(0, len(s)):
         sub=s[i: ]+s[0:i]
         if is_correct_parenthesis(sub):
